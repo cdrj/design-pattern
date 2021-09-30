@@ -1,4 +1,4 @@
-package DesignPattern.AbstFactory;
+package Factory.AbstFactory;
 
 /**
  * @author runjie
@@ -7,9 +7,9 @@ package DesignPattern.AbstFactory;
  * @date 2021/9/29 22:13
  * @Version 1.0
  */
-public class LowEndToy implements IToy{
+public class HighEndToy implements IToy{
     @Override
     public void showToy() {
-        System.out.println("我是低端玩具");
+        System.out.println("我是高端玩具");
     }
 }

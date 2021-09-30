@@ -1,4 +1,4 @@
-package DesignPattern.AbstFactory;
+package Factory.AbstFactory;
 
 public class HighEndMask implements IMask {
     @Override
